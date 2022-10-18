@@ -1,0 +1,16 @@
+body {
+    background: red;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 144px;
+    color: white
+}
+p {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 60px;  
+
+}
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
