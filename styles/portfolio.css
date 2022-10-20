@@ -65,7 +65,7 @@ p {
     font-size: 16px;
 }
 .btn-secondary:hover {
-   color: var(--primary-color); 
+   color: transparent; 
    background-color: var(--text-dark-color);
 }
 .project-description {
@@ -81,6 +81,9 @@ img {
     .project-description {
         padding: none;
         text-align: center;
+    }
+    h1 {
+        font-size: 100px;
     }
 }
 @media (max-width: 576px) {
