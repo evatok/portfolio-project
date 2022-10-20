@@ -68,7 +68,10 @@ p {
    background-color: var(--text-dark-color);
 }
 .project-description {
-    padding: 0 30px;
+    padding: 0 20px;
+}
+img {
+    padding: 0 20px;
 }
 .row {
     margin-top: 60px;
@@ -77,9 +80,6 @@ p {
     .project-description {
         padding: none;
         text-align: center;
-    }
-    h1 {
-        font-size: 50px;
     }
 }
 @media (max-width: 576px) {
