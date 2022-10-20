@@ -5,6 +5,7 @@
  --heading-font-family: 'Montserrat', sans-serif;
 }
 body {
+    background-color: rgba(251, 251, 250, 1);
     font-family: var(--default-font-family);
 }
 
@@ -22,6 +23,14 @@ h1 {
     margin-bottom: 40px;
 }
 h2 {
+    font-family: var(--heading-font-family);
+    font-weight: 900; 
+    font-size: 48px
+}
+p {
+    line-height: 1.7;
+}
+.salutation {
 
     font-family: var(--default-font-family);
     font-size: 36px;  
@@ -31,7 +40,7 @@ h2 {
 }
 
 .btn {
-    margin-top: 72px;
+    margin-top: 80px;
     text-align: center;
     background-color: var(--text-dark-color);
     color: var(--primary-color);
@@ -45,5 +54,52 @@ h2 {
     background-color: transparent;  
     color: var(--text-dark-color);
     
+}
+.btn-secondary {
+    margin-top: 10px;
+    border: 1px solid var(--text-dark-color);
+    background-color: transparent;  
+    color: var(--text-dark-color);
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.btn-secondary:hover {
+   color: var(--primary-color); 
+   background-color: var(--text-dark-color);
+}
+.project-description {
+    padding: 0 30px;
+}
+.row {
+    margin-top: 60px;
+}
+@media (max-width: 900px) {
+    .project-description {
+        padding: none;
+        text-align: center;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 58px;
+       
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .salutation {
+        font-size: 30px;
+        line-height: 1.6;
+    }
+    .hero {
+        padding: 80px 10px;
+    }
+    .btn {
+        margin-top: 40px;
+    }
 }
 
