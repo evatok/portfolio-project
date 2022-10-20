@@ -65,7 +65,7 @@ p {
     font-size: 16px;
 }
 .btn-secondary:hover {
-   color: transparent; 
+   color: rgba(251, 251, 250, 1);
    background-color: var(--text-dark-color);
 }
 .project-description {
