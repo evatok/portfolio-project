@@ -21,7 +21,7 @@ body {
     background: var(--primary-color);
     text-align: center;
     margin: 0;
-    padding: 160px;
+    padding: 160px 20px;
 }
 .content {
     padding: 120px 20px;
@@ -29,6 +29,7 @@ body {
 .content h1 {
     font-size: 80px;
     font-weight: 900;
+    text-decoration: none;
 }
 .h2-about {
     font-family: var(--default-font-family);
@@ -36,6 +37,9 @@ body {
     line-height: 1.7;
     color: var(--text-dark-color);
     
+}
+.bg-green {
+    background-color: var(--primary-color);
 }
 
 h1 {
@@ -56,6 +60,14 @@ h3 {
 }
 p {
     line-height: 1.7;
+}
+a {
+    color: var(--text-dark-color);
+    
+}
+a:hover {
+    text-decoration: none; 
+    color: var(--text-dark-color);
 }
 .salutation {
 
@@ -98,6 +110,9 @@ p {
 .btn-secondary:hover {
    color: var(--secondary-color);
    background-color: var(--text-dark-color);
+}
+.navbar-nav {
+    display: flex end;
 }
 
 
