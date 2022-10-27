@@ -35,7 +35,7 @@ a {
 footer {
     background-color: var(--primary-color);
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 a:hover {
     text-decoration: none; 
@@ -120,7 +120,11 @@ a:hover {
 }
 
 .contact-box{ 
-    margin-bottom: 20px;
+   
+ margin-bottom: 20px;
+}
+.underline {
+    text-decoration: underline;
 }
 @media (max-width: 900px) {
     .project-description {

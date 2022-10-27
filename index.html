@@ -36,11 +36,15 @@
       src="https://kit.fontawesome.com/995db7d932.js"
       crossorigin="anonymous"
     ></script>
+    <meta
+      name="desciption"
+      content="Eva Tokarchuk is a professionally trained web developer and designer who works in minimalistic style."
+    />
     <title>Front End Developer - Eva Tokarchuk</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-green">
-      <a class="navbar-brand" href="/index.html">ET.</a>
+      <a class="navbar-brand" href="/index.html" title="Homepage">ET.</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -54,12 +58,20 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="/index.html"
+          <a
+            class="nav-item nav-link active"
+            href="/index.html"
+            title="Homepage"
             >Home<span class="sr-only">(current)</span></a
           >
-          <a class="nav-item nav-link" href="/work.html">Work</a
-          ><a class="nav-item nav-link" href="/about.html">About</a>
-          <a class="nav-item nav-link" href="/contact.html">Contact</a>
+          <a class="nav-item nav-link" href="/work.html" title="Eva's Portfolio"
+            >Work</a
+          ><a class="nav-item nav-link" href="/about.html" title="About Eva"
+            >About</a
+          >
+          <a class="nav-item nav-link" href="/contact.html" title="Contact Eva"
+            >Contact</a
+          >
         </div>
       </div>
     </nav>
@@ -70,13 +82,17 @@
         Hello, I am Frontend Developer and Web Designer, based in Europe.
       </p>
 
-      <a href="#" class="btn">Contact me</a>
+      <a href="/contact.html" class="btn" title="Contact Eva">Contact me</a>
     </div>
     <p class="text-center m-5">Check out my latests projects</p>
     <div class="container">
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="/images/weather.png" alt="" class="img-fluid shadow" />
+          <img
+            src="/images/weather.png"
+            alt="Weather app design and development using Java, CSS, HTML, Api"
+            class="img-fluid shadow"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -90,6 +106,8 @@
             <a
               href="https://fanciful-vacherin-09e95f.netlify.app/"
               class="btn btn-secondary"
+              title="Go to Weather App"
+              target="_blank"
               >Learn more</a
             >
           </div>
@@ -107,53 +125,94 @@
               large language ocean. A small river named Duden flows by
             </p>
             <a
-              href="https://fanciful-vacherin-09e95f.netlify.app/"
+              href="https://bucolic-liger-7233b0.netlify.app/index.html"
               class="btn btn-secondary"
+              title="See Portfolio Website"
+              target="_blank"
               >Learn more</a
             >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="/images/portfolio.png" alt="" class="img-fluid shadow" />
+          <img
+            src="/images/portfolio.png"
+            alt="Portfolio Website first screen, designed and developed with bootstrap, html, css"
+            class="img-fluid shadow"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="/images/dictionary.png" alt="" class="img-fluid shadow" />
+          <img
+            src="/images/dictionary.png"
+            alt="Dictionary App designed and developed by Eva Tokarchuk"
+            class="img-fluid shadow"
+          />
         </div>
         <div class="col">
           <div class="project-description">
             <h2 class="mb-3">Dictionary App</h2>
             <p class="mb-none">Coming soon...</p>
             <a
-              href="https://fanciful-vacherin-09e95f.netlify.app/"
+              href="/work.html"
               class="btn btn-secondary"
+              title="Try Dictionary app"
+              target="_blank"
               >Learn more</a
             >
           </div>
         </div>
       </div>
+
       <div class="contact-box d-none d-sm-flex justify-content-between">
         <div>
           <h3>Work Inquiry</h3>
           <p>Let's work together</p>
         </div>
         <div>
-          <a href="mailto:teo@ukr.net" class="btn btn-footer">Contact me</a>
+          <a
+            href="/contact.html"
+            class="btn btn-footer"
+            title="Get in touch with Eva"
+            >Contact me</a
+          >
         </div>
       </div>
     </div>
     <footer class="text-center">
-      <a href="mailto:teo@ukr.net">teo@ukr.net</a>
+      <a href="mailto:teo@ukr.net" title="Get in touch with Eva via mail"
+        >teo@ukr.net</a
+      >
       <br />
+      <a
+        href="https://github.com/evatok"
+        target="_blank"
+        title="Eva's Github account"
+        ><i class="fa-brands fa-github mt-2 mr-2"></i
+      ></a>
       <a
         href="https://www.linkedin.com/in/eva-tokarchuk🇺🇦-01486a251/"
         target="_blank"
+        title="Eva's Linkedin page"
         ><i class="fa-brands fa-linkedin mt-2 mr-2"></i
       ></a>
-      <a href="https://dribbble.com/evatokarchuk" target="_blank"
-        ><i class="fa-brands fa-dribbble mt-2"></i
+      <a
+        href="https://dribbble.com/evatokarchuk"
+        target="_blank"
+        title="Eva's design projects on Dribbble"
+      >
+        <i class="fa-brands fa-dribbble mt-2"> </i
       ></a>
+      <p class="text-center mt-2">
+        This page was coded by Eva Tokarchuk, and it is
+        <a
+          class="underline"
+          href="https://github.com/evatok/portfolio-project"
+          target="_blank"
+          title="Code on Github"
+          >open-sourced</a
+        >
+      </p>
     </footer>
   </body>
 </html>
